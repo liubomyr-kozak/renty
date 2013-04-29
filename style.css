@@ -1,0 +1,313 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    width:100%;
+}
+body {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    height: 100%;
+    min-height: 100%;
+    color: #404040;
+    background:url('//assets.tunehog.com/images/th_bg.gif') top left;
+    width:100%;
+    min-width:980;
+}
+body, td, div, h1, p, input, select, textarea {
+    font-family: Arial, Tahoma, Verdana, Sans-Serif;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+input {
+    outline:none;
+    margin:0px;
+}
+b {
+    font-weight: 700;
+}
+a, img {
+    border: none;
+}
+a {
+    text-decoration: none;
+    cursor:pointer;
+    outline:none;
+}
+a:hover u{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight:400;
+}
+.page {
+    text-align:left;
+    width:980px;
+    margin:0px auto;
+    position:relative;
+}
+.th_container {
+    min-height: 100%;
+    position: relative;
+    width:100%;
+    min-width:1002px;
+}
+.th_content {
+    padding-bottom:150px;
+    width:100%;
+}
+.fl {
+    float:left !important;
+}
+.fr {
+    float:right !important;
+}
+.xsmall {
+    font-size:9px;
+}
+.vsmall {
+    font-size:10px;
+}
+.small {
+    font-size:11px;
+}
+.normal {
+    font-size:12px !important;
+}
+.slarge {
+    font-size:13px;
+}
+.large {
+    font-size:14px;
+}
+.vlarge {
+    font-size:14px;
+}
+.xlarge {
+    font-size:16px;
+}
+.clear {
+    display:block;
+    clear: both;
+    font-size: 0px;
+    overflow:hidden;
+    height:0px;
+}
+.clear1 {
+    clear: both;
+    font-size: 0px;
+    overflow:hidden;
+    height:1px;
+}
+.clear_small2 {
+    clear: both;
+    font-size: 1px;
+    height:2px;
+    display:block;
+}
+.clear_small {
+    clear: both;
+    font-size: 1px;
+    height:5px;
+    display:block;
+}
+.clear_medium {
+    clear: both;
+    font-size: 1px;
+    height:10px;
+    display:block;
+}
+.clear_big {
+    clear: both;
+    font-size: 1px;
+    height:15px;
+    display:block;
+}
+.clear_vbig {
+    clear: both;
+    font-size: 1px;
+    height:20px;
+    display:block;
+}
+.clear_xbig {
+    clear: both;
+    font-size: 1px;
+    height:25px;
+    display:block;
+}
+.martop_small {
+    margin-top:5px;
+}
+.martop {
+    margin-top:10px;
+}
+.martop_big {
+    margin-top:15px;
+}
+.martop_vbig {
+    margin-top:20px;
+}
+.martop_xbig {
+    margin-top:25px;
+}
+.marbot_small {
+    margin-bottom:5px;
+}
+.marbot {
+    margin-bottom:10px;
+}
+.marbot_big {
+    margin-bottom:15px;
+}
+.marbot_vbig {
+    margin-bottom:20px;
+}
+.marbot_xbig {
+    margin-bottom:25px;
+}
+.mrl_small {
+    margin-left:5px;
+}
+.mrl {
+    margin-left:10px !important;
+}
+.mrl_big {
+    margin-left:15px;
+}
+.mrl_vbig {
+    margin-left:20px !important;
+}
+.mrl_xbig {
+    margin-left:25px !important;
+}
+.mrt_small {
+    margin-right:5px;
+}
+.mrt {
+    margin-right:10px !important;
+}
+.mrt_big {
+    margin-right:15px;
+}
+.mrt_vbig {
+    margin-right:20px;
+}
+.mrt_xbig {
+    margin-right:25px;
+}
+.padl_small {
+    padding-left:5px;
+}
+.padl {
+    padding-left:10px !important;
+}
+.padl_big {
+    padding-left:15px !important;
+}
+.padl_vbig {
+    padding-left:20px !important;
+}
+.padl_xbig {
+    padding-left:30px;
+}
+.padr_small {
+    padding-right:5px;
+}
+.padr {
+    padding-right:10px;
+}
+.padr_big {
+    padding-right:15px;
+}
+.padr_vbig {
+    padding-right:20px;
+}
+.padr_xbig {
+    padding-right:30px;
+}
+.text_left {
+    text-align:left !important;
+}
+.text_center {
+    text-align:center;
+}
+.text_right {
+    text-align:right !important;
+}
+.vtop {
+    vertical-align:top;
+}
+.vmid {
+    vertical-align:middle !important;
+}
+.tup {
+    text-transform:uppercase;
+}
+.notup {
+    text-transform:none !important;
+}
+.pr {
+    position:relative;
+}
+.pa {
+    position:absolute;
+}
+.pf {
+    position:fixed;
+}
+.dn {
+	display:none;
+}
+.db {
+	display:block;
+}
+.di {
+	display:inline !important;
+}
+.box_ins_small {
+	padding:5px;
+}
+.box_ins {
+	padding:10px;
+}
+.box_ins_big {
+	padding:15px;
+}
+.box_ins_vbig {
+	padding:20px;
+}
+.box_ins_xbig {
+	padding:25px;
+}
+.radius_vsmall {
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    position:relative;
+    behavior: url(PIE.htc);
+}
+.radius_small {
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    position:relative;
+    behavior: url(PIE.htc);
+}
+.radius_normal {
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    position:relative;
+    behavior: url(PIE.htc);
+}
+.radius_big {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    position:relative;
+    behavior: url(PIE.htc);
+}
