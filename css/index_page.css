@@ -1,0 +1,63 @@
+.search_wrap{
+	background: rgb(211, 211, 211);
+	width: 712px;
+	padding: 3px 0;
+}
+.page.block_search{
+	margin-top: 50px;
+	padding: 0 0 0 50px;
+	border: 1px solid rgb(180, 180, 180);
+	background: rgb(196, 196, 196);
+	border-radius: 3px;
+	width: 760px!important;
+}
+											/*=======
+											search form
+											  =======*/
+.th_header_v2_search {
+	/*background: #fff;*/
+	width: 703px;
+	height: 40px;
+	position: relative;
+}
+
+.th_header_v2_search_text {
+	width: 640px;
+	height: 30px!important;
+	margin-left: 3px;
+	border: none;
+	background-color: #fff;
+	padding: 0px 0px 0px 10px;
+	font-size: 16px;
+}
+.th_header_v2_search_submit {
+	width: 25px;
+	height: 37px;
+	background: url('../images/th_header_v2_lupa.gif') 0px -12px #fff no-repeat;
+	cursor: pointer;
+	border: none;
+	padding: 0px;
+	position: relative;
+	left: -32px;
+	top: 2px;
+}
+}
+.th_header_v2_search_submit:hover {
+	background:url('../images/th_header_v2_lupa.gif') 0px -72px #fff no-repeat;
+}
+.th_header_v2_search_advanced {
+	height: 17px;
+	font-style: italic;
+	font-size: 17px;
+	color: rgb(155, 51, 51);
+	line-height: 14px;
+	margin-top: 12px;
+	position: relative;
+	left: -10px;
+}
+											/*=======
+											end search form
+											 	  =======*/
+.line_second{
+	margin: 0px 0px 0px 146px;
+}

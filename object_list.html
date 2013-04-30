@@ -3,8 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
-	<link rel="Stylesheet" type="text/css" href="object_list.css" media="all">
+	<link rel="Stylesheet" type="text/css" href="css/page_object_list.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/stuffstrap.css" media="all"/>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all"/>-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" media="all"/>
+	<script type="text/javascript">
+		$('.dropdown-toggle').dropdown()
+	</script>
 </head>
 <body>
 
@@ -22,14 +34,105 @@
 </div>
 <div class="clear"></div>
 <div class="page">
-	<div class="object_filter fl">sss</div>
+
+	<div class="object_filter fl" unselectable="on">
+
+		<div class="object_filter_box">
+			<!--<div class="clear_small2"></div>-->
+			<button class="btn btn-success width_100">Search</button>
+			<!--<div class="clear_small2"></div>-->
+		</div>
+
+		<div class="clear_small"></div>
+
+		<div class="object_filter_box ">
+			<div class="clear_small2"></div>
+			<div class="btn_group width_100">
+				<div class="width_50">
+					<span class="btn width_100">Снять</span>
+				</div>
+				<div class="width_50">
+					<span class="btn width_100">Купить</span>
+				</div>
+			</div>
+			<div class="clear_small"></div>
+			<div class="btn_group width_100">
+				<div class="width_33">
+					<span class="btn width_100">Квартиру</span>
+				</div>
+				<div class="width_33">
+					<span class="btn width_100">Комнату</span>
+				</div>
+				<div class="width_33">
+					<span class="btn width_100">Дом</span>
+				</div>
+			</div>
+			<div class="clear_small"></div>
+			<div class="btn_group width_100">
+				<div class="width_50">
+					<span class="btn width_100">Долгострочно</span>
+				</div>
+				<div class="width_50">
+					<span class="btn width_100">Посуточно</span>
+				</div>
+			</div>
+			<div class="clear_small"></div>
+			<div class="btn_group width_100">
+				<a class="btn dropdown-toggle width_99">
+					Kомнат
+					<b class="caret" style="margin: 9px 0 0 175px;"></b>
+				</a>
+				<ul class="check_box_wrap ul_mar">
+					<button class="check_box btn">1</button>
+					<button class="check_box btn">2</button>
+					<button class="check_box btn">3</button>
+					<button class="check_box btn">4</button>
+					<button class="check_box btn">4+</button>
+				</ul>
+			</div>
+			<div class="clear_small"></div>
+			<div class="controls controls-row">
+				<div class="help-inline fl padl_small">Цена</div>
+				<div class="fr  mrt_small">
+					<span class="help-inline">От</span>
+					<input type="text"class="input-mini">
+					<span class="help-inline">До</span>
+					<input type="text" class="input-mini">
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
 	<div class="object_list fr">
 		<div class="search_result">
-			 <div class="apartments_photo fl">
-				 <img src="img/1.jpg" alt=""/>
-			 </div>
-			 <div class="apartments_info fr">
+			 <div class="apartments_photo fl ">
+				 <img src="img/1.jpg" class="img-polaroid" alt=""/>
+				 <div class="clear"></div>
 
+			 </div>
+			 <div class="apartments_info fl">
+				 <div class="fl thumbnail_info martop_small">
+					 <h3> ул. Мишуги 7</h3>
+				 </div>
+				 <div class="fr thumbnail_info_2">
+					 <div class="price_block">
+					 	 <div>
+
+					  	 </div>
+						 <div class="btn-group">
+							 <a class="btn btn-toolbar padr padl" data-toggle="dropdown" href="#">
+							     <ins class="val_price">Грн</ins>
+								 <span class="caret martop "></span>
+							 </a>
+							 <ul class="dropdown-menu">
+								 <li><a>$</a></li>
+								 <li><a>€</a></li>
+								 <li><a>Грн.</a></li>
+								 <li><a>Рубл.</a></li>
+							 </ul>
+						 </div>
+					 </div>
+				 </div>
 			 </div>
 		</div>
 	</div>
