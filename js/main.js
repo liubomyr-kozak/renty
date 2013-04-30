@@ -13,8 +13,12 @@ $(document).ready (function(){
     });
 
     $('.dropdown-menu > li > a').click(function(){
-        var price = $(this).text();
-        $('.val_price').text(price);
-        $('.check_box_wrap').toggleClass('displ_block');
+        var currency = $(this).text();
+        var price = $('.js__price').text();//1500
+        var nbu = ['7.99','10.48',1,'0.28'];
+        var number = $('.dropdown-menu > li > a').index(this);
+        var price_uk=$('.js__price').data('price_ap');
+        $('.js__price').text((price_uk / nbu[number]).toFixed(2));
+        $('.js__currency').text(currency);
     });
 });

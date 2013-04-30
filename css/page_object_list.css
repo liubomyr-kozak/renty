@@ -77,3 +77,7 @@
     background: url("../img/head-texture.png") repeat-x;
     height: 100%;
 }
+.js__price{
+    padding: 0px 15px;
+    border-right: 1px solid #ccc;
+}
