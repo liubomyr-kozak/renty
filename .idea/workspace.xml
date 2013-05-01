@@ -40,19 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="object_list.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="object_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="20" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.8454546">
+            <state line="103" column="0" selection-start="3198" selection-end="3198" vertical-scroll-proportion="-17.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stuffstrap.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="stuffstrap.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="-23.12">
+            <state line="48" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="-5.4981413">
               <folding />
             </state>
           </provider>
@@ -471,16 +471,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
+    <entry file="file://$PROJECT_DIR$/object_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="-23.12">
+        <state line="103" column="0" selection-start="3198" selection-end="3198" vertical-scroll-proportion="-17.884615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/object_list.html">
+    <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="20" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.8454546">
+        <state line="48" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="-5.4981413">
           <folding />
         </state>
       </provider>
