@@ -14,6 +14,41 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
     display:none;
     padding: 0px;
 }
+.ul_list li{
+	list-style: none;
+	clear: both;
+	line-height: 27px;
+	background: rgb(231, 231, 231);
+	border: 1px solid #fff;
+}
+.ul_list li:hover,
+.ul_list li:focus,
+.ul_list li:active{
+	background:rgb(214, 214, 214);
+}
+.caret {
+	display:block;
+	width: 0;
+	height: 0;
+	vertical-align: top;
+	border-top: 4px solid #000000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+	/*add*/
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	margin: 9px 0px 0px;
+}
+
+.input-mini {
+	width: 60px;
+}
+
+.geoselector{
+	width: 243px!important;
+}
 /*end shitt*/
 .btn_group{
     word-wrap: normal;
@@ -29,6 +64,7 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
     padding-right:10px!important;
 }
 .btn{
+	position:relative;
     display: inline-block;
     *display: inline;
     padding: 1px 0px;
@@ -90,11 +126,13 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
     color: #333333;
     background-color: #e6e6e6;
     *background-color: #d9d9d9;
+
 }
 
 .btn:active,
 .btn.active_btn {
     background-color: #cccccc \9;
+	font-weight:bold;
 }
 
 .btn:first-child {
@@ -204,20 +242,7 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
 }
 
 
-.caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    vertical-align: top;
-    border-top: 4px solid #000000;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-    content: "";
-}
 
-.input-mini {
-    width: 60px;
-}
 .controls{
     line-height: 25px;
 }

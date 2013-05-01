@@ -4,14 +4,14 @@
     <list default="true" id="f50a3fb2-4dc8-4e67-a44e-26f928383647" name="Default" comment="" />
     <ignored path="rent.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/object_list.html" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367335102143" ignored="false" />
-    <file path="/dummy.xml" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367335098614" ignored="false" />
+    <file path="/object_list.html" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367425159607" ignored="false" />
+    <file path="/dummy.xml" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367402373568" ignored="false" />
     <file path="/object_list.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367253551445" ignored="false" />
     <file path="/a.dummy" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367309263868" ignored="false" />
     <file path="/style.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367323969332" ignored="false" />
-    <file path="/stuffstrap.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367316852559" ignored="false" />
+    <file path="/stuffstrap.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367424399103" ignored="false" />
     <file path="/page_object_list.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367335020001" ignored="false" />
-    <file path="/main.js" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367333361564" ignored="false" />
+    <file path="/main.js" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367401548823" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,11 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="20" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="-13.6">
+=======
+            <state line="23" column="3" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -43,19 +47,15 @@
       <file leaf-file-name="object_list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/object_list.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="119" column="0" selection-start="3686" selection-end="3686" vertical-scroll-proportion="0.4219858">
               <folding>
                 <element signature="n#style#0;n#b#0;n#a#0;n#div#7;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_object_list.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="33" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+=======
+            <state line="100" column="47" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.49763593">
               <folding />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -63,7 +63,20 @@
       <file leaf-file-name="stuffstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="12" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-23.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_object_list.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="84" column="11" selection-start="2776" selection-end="2776" vertical-scroll-proportion="-12.88">
+=======
+            <state line="81" column="33" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -81,7 +94,11 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state line="319" column="39" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.0">
+=======
+            <state line="264" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -102,12 +119,17 @@
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/stuffstrap.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/page_object_list.css" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/stuffstrap.css" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/object_list.html" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
@@ -211,6 +233,66 @@
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="250857cb-137f-40b4-8448-2495c7b86aba">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="38430d19-86ff-4e51-8a1f-052be6f88106">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ad6297a7-9c16-43ea-b9fe-01e0fe9a3a04">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="c2b8836b-e51f-4dbb-a778-43148ea17795">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="c43ef75c-06e8-43eb-b440-304c2acdf899">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="cb307efe-9000-4499-987f-cb0428bcfab2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="d637a6e2-90af-4fad-92aa-12bd5db6b1be">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ea93104d-293c-44a4-8125-f52d1ba22365">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lubomir\renty\css" />
@@ -246,9 +328,15 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31590182" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.6840982" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.6840982" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -325,10 +413,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/object_list.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+=======
+        <state line="119" column="0" selection-start="3686" selection-end="3686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="33" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="11" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3777" column="10" selection-start="72853" selection-end="72862" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="4" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> Stashed changes
         <state line="31" column="16" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#b#0;n#a#0;n#div#7;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -342,9 +466,7 @@
     <entry file="file://$PROJECT_DIR$/object_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="12" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#b#0;n#a#0;n#div#7;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -369,16 +491,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state line="319" column="39" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.0">
+=======
+        <state line="23" column="3" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state line="20" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="-13.6">
+=======
+        <state line="264" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
@@ -392,17 +522,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state line="81" column="33" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0">
+=======
+        <state line="48" column="12" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-23.12">
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/object_list.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state line="119" column="0" selection-start="3686" selection-end="3686" vertical-scroll-proportion="0.4219858">
           <folding>
             <element signature="n#style#0;n#b#0;n#a#0;n#div#7;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+=======
+        <state line="100" column="47" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.49763593">
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
