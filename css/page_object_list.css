@@ -12,8 +12,9 @@
 
 .object_list{
     width: 725px;
-    background: #F9F9F9;
+    /*background: #F9F9F9;*/
 	border: 1px solid #dadada;
+	background: rgb(228, 228, 228);
 }
 
 .personal_menu_line{
@@ -53,6 +54,12 @@
 }
 .search_result{
     border-bottom: 1px solid #ccc;
+}
+.search_result > div:not(.clear){
+	border-bottom: 1px solid rgb(218, 218, 218);
+	border-top: 1px solid rgb(218, 218, 218);
+	margin: 10px 0;
+	background: #fff;
 }
 .search_result .apartments_photo{
     width: 150px;
