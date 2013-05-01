@@ -13,9 +13,7 @@
 .object_list{
     width: 725px;
     background: #F9F9F9;
-    border-left: 1px solid #dadada;
-    border-right: 1px solid #dadada;
-    border-bottom: 1px solid #dadada;
+	border: 1px solid #dadada;
 }
 
 .personal_menu_line{
@@ -68,16 +66,29 @@
 .search_result .apartments_info{
     width: 555px;
 }
+
 .thumbnail_info{
     width: 300px;
-    background: #333;
 }
 .thumbnail_info_2{
     width: 155px;
     background: url("../img/head-texture.png") repeat-x;
     height: 100%;
 }
+.thumbnail_info_2 .icon img{
+	width: 25px;
+	height:25px;
+	cursor:pointer;
+}
 .js__price{
     padding: 0px 15px;
     border-right: 1px solid #ccc;
+}
+.vertical_line{
+	height: 85px;
+	font-size: 0;
+	width: 1px;
+	background: #ccc;
+	float: left;
+	margin: 8px 0 0 35px;
 }
