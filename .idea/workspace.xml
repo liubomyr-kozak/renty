@@ -4,14 +4,17 @@
     <list default="true" id="f50a3fb2-4dc8-4e67-a44e-26f928383647" name="Default" comment="" />
     <ignored path="rent.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/object_list.html" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367451974030" ignored="false" />
-    <file path="/dummy.xml" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367451976019" ignored="false" />
+    <file path="/object_list.html" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367471448859" ignored="false" />
+    <file path="/dummy.xml" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367490827146" ignored="false" />
     <file path="/object_list.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367253551445" ignored="false" />
     <file path="/a.dummy" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367447992879" ignored="false" />
-    <file path="/style.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367323969332" ignored="false" />
-    <file path="/stuffstrap.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367424399103" ignored="false" />
-    <file path="/page_object_list.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367452248407" ignored="false" />
+    <file path="/style.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367486682920" ignored="false" />
+    <file path="/stuffstrap.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367486865546" ignored="false" />
+    <file path="/page_object_list.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367492340806" ignored="false" />
     <file path="/main.js" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367401548823" ignored="false" />
+    <file path="/object_page.html" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367481197706" ignored="false" />
+    <file path="/profile_page.html" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367493632741" ignored="false" />
+    <file path="/core.css" changelist="f50a3fb2-4dc8-4e67-a44e-26f928383647" time="1367491077602" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +37,24 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="3" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+            <state line="11" column="46" selection-start="392" selection-end="407" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object_page.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="14" selection-start="3607" selection-end="3607" vertical-scroll-proportion="-62.307693">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#4;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,16 +62,59 @@
       <file leaf-file-name="object_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="371" column="16" selection-start="12305" selection-end="12305" vertical-scroll-proportion="-25.346153">
+            <state line="48" column="41" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-5.8846154">
+              <folding>
+                <element signature="n#style#0;n#b#0;n#div#8;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_page.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="306" column="35" selection-start="19376" selection-end="19376" vertical-scroll-proportion="0.087037034">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#span#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_object_list.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="244" column="22" selection-start="4495" selection-end="4495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_object_list.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
+      <file leaf-file-name="profile_profile_page.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile_profile_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="35" selection-start="352" selection-end="352" vertical-scroll-proportion="0.3119266">
+            <state line="41" column="55" selection-start="1398" selection-end="1398" vertical-scroll-proportion="-18.961538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stuffstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="377" column="1" selection-start="10864" selection-end="10864" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="354" column="3" selection-start="5060" selection-end="5113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,20 +132,24 @@
       <list>
         <option value="$PROJECT_DIR$/object_list.css" />
         <option value="$PROJECT_DIR$/css/object_list.css" />
-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/stuffstrap.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/object_list.html" />
+        <option value="$PROJECT_DIR$/object_page.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/stuffstrap.css" />
+        <option value="$PROJECT_DIR$/js/jquery-1.9.1.min.js" />
+        <option value="$PROJECT_DIR$/css/core.css" />
         <option value="$PROJECT_DIR$/css/page_object_list.css" />
+        <option value="$PROJECT_DIR$/profile_page.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1044" />
+    <option name="x" value="1916" />
+    <option name="y" value="239" />
+    <option name="width" value="1374" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -244,6 +310,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\renty" />
       <recent name="C:\Users\Admin\renty\img" />
       <recent name="C:\Users\Lubomir\renty\css" />
       <recent name="E:\Prodject\rent" />
@@ -272,7 +339,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <frame x="1916" y="239" width="1374" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -280,12 +347,12 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31514478" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25827107" sideWeight="0.6848552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1560606" sideWeight="0.6848552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -355,71 +422,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1083" column="11" selection-start="21655" selection-end="21655" vertical-scroll-proportion="0.115447156" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="20" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="21" selection-start="797" selection-end="797" vertical-scroll-proportion="0.5080275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="14" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.99426603">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/warning.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/sravnit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/izbranoie.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/head-texture.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/glyphicons-halflings-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/glyphicons-halflings.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -430,24 +432,106 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/map.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="23" selection-start="5646" selection-end="5646" vertical-scroll-proportion="0.33278146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3777" column="10" selection-start="72853" selection-end="72862" vertical-scroll-proportion="0.019790454">
+        <state line="4910" column="44" selection-start="96471" selection-end="96483" vertical-scroll-proportion="-0.17844523">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367349756061" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="392" selection-end="407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="14" selection-start="3607" selection-end="3607" vertical-scroll-proportion="-62.307693">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/object_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="371" column="16" selection-start="12305" selection-end="12305" vertical-scroll-proportion="-25.346153">
+        <state line="48" column="41" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-5.8846154">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#div#8;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile_profile_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="55" selection-start="1398" selection-end="1398" vertical-scroll-proportion="-18.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="354" column="3" selection-start="5060" selection-end="5113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stuffstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="377" column="1" selection-start="10864" selection-end="10864" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/page_object_list.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="352" selection-end="352" vertical-scroll-proportion="0.3119266">
+        <state line="244" column="22" selection-start="4495" selection-end="4495" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="35" selection-start="19376" selection-end="19376" vertical-scroll-proportion="0.087037034">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#span#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

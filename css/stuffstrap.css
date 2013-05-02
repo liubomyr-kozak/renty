@@ -371,3 +371,8 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
                                                             /*=======
                                                             END dropdown-menu
                                                                      =======*/
+.input_search .search-query{
+	border:1px solid #ccc;
+	margin-left:10px;
+	padding:4px 3px 3px;
+}

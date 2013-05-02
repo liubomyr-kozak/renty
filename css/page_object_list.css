@@ -1,4 +1,5 @@
-.object_filter{
+.object_filter,
+.odject_page_info2{
     width: 245px;
     height: 100%;
 }
@@ -16,7 +17,6 @@
 	border: 1px solid #dadada;
 	background: rgb(228, 228, 228);
 }
-
 .personal_menu_line{
     height: 35px;
     width: 100%;
@@ -32,9 +32,22 @@
     border-bottom: 1px solid #0379cc;
     color: #0379cc;
 }
-.menu a:hover{
+.link{
+	border-bottom: 1px solid #0379cc;
+	color: #0379cc;
+}
+.link_color,
+.link_color a{
+	color: #0379cc;
+}
+.menu a:hover,
+.link:hover{
     border-bottom: 1px solid #cc3e07;
     color: #cc3e07;
+}
+.link_color:hover,
+.link_color a:hover{
+	color: #cc3e07;
 }
 .menu b{
     /*border-right: 1px solid #ccc;*/
@@ -65,15 +78,24 @@
     width: 150px;
     padding: 0px 20px 0px 0px;
 }
-.apartments_photo img{
+.search_result .profile_apartments_photo img{
+	width: 85px;
+	padding: 0px;
+
+}
+.apartments_photo img,
+.profile_apartments_photo img{
     width:100%;
     margin: 5px;
     
 }
+
 .search_result .apartments_info{
     width: 555px;
 }
-
+.search_result .profile_apartments_info{
+	width: 628px;
+}
 .thumbnail_info{
     width: 300px;
 }
@@ -98,4 +120,146 @@
 	background: #ccc;
 	float: left;
 	margin: 8px 0 0 35px;
+}
+
+													/* ========
+														object page style
+																  ======== */
+
+.odject_page_info{
+	width: 725px;
+	/*background: #F9F9F9;*/
+}
+.odject_page_info .column1{
+	width:210px;
+}
+.odject_page_info .column2{
+	width:500px;
+}
+.gallery img{
+	width:200px;
+	max-height:150px;
+}
+.thumbnail_img img{
+	width:95px;
+	max-height:60px;
+	margin:0px 0px 0px 3px;
+	float:left;
+}
+
+.thumbnail_img span,
+.gallery > span{
+	background:rgba(255, 255, 255, 0.6);
+	height:60px;
+	width:15px;
+	cursor:pointer;
+	border-left: 1px solid rgba(0, 0, 0, 0.37);
+	border-right: 1px solid rgba(0, 0, 0, 0.27);
+}
+.gallery > span{
+	height: 137px;
+	background:rgb(190, 190, 190);
+}
+
+
+.thumbnail_img span:hover{
+	background:rgba(255, 255, 255, 0.8);
+}
+.gallery > span:hover{
+	background:rgb(136, 183, 255);
+}
+.left_side{
+	background: url("../img/glyphicons-halflings.png") -433px -74px;
+	height: 12px;
+	width: 10px;
+	display: block;
+	margin: 25px 0 0 2px;
+
+}
+.right_side{
+	background: url("../img/glyphicons-halflings.png") -458px -74px;
+	height: 12px;
+	width: 10px;
+	display: block;
+	margin: 25px 0 0 2px;
+
+}
+.gallery > span b{
+	margin-top:58px;
+}
+.feature{
+	margin:0 0 10px 2px;
+}
+.feature li:first-child{
+	background:#ccc;
+	padding: 5px 10px 5px 2px;
+}
+.odject_page_info2 .photo img{
+	width:50px;
+}
+.gallery > a{
+	display:block;
+	float:left;
+	margin: 0px 15px 0 18px;
+	border: 1px solid rgba(204, 204, 204, 0.36);
+	padding: 5px;
+	border-radius: 5px;
+	color:#0379cc;
+}
+.gallery > a:hover{
+	border: 1px solid rgba(204, 204, 204, 0.81);
+	border-bottom: 5px solid rgba(204, 204, 204, 0.81);
+	color:#cc3e07;
+}
+.gallery > a img{
+	width:120px;
+}
+
+															/* =======
+																 calculitor
+																	  =======*/
+
+#wrapper{
+	position: absolute;
+	margin: 20px 0 0 -280px;
+}
+#calfootnote{
+	display:none;
+}
+#calinfoout #calInfoOutPut {
+	width: 234px!important;
+}
+.calinfoinner input[type=button]{
+	cursor:pointer;
+}
+
+														/* =======
+																end calculitor
+																  			=======*/
+
+/* all form DIVs have position property set to relative so we can easily position newly created SPAN */
+form div{position:relative;}
+
+/* setting the width and height of the SELECT element to match the replacing graphics */
+select.select{
+	position:relative;
+	z-index:10;
+	width:166px !important;
+	height:26px !important;
+	line-height:26px;
+}
+
+/* dynamically created SPAN, placed below the SELECT */
+span.select{
+	position:absolute;
+	bottom:0;
+	float:left;
+	left:0;
+	width:166px;
+	height:26px;
+	line-height:26px;
+	text-indent:10px;
+	background:url(images/bg_select.gif) no-repeat 0 0;
+	cursor:default;
+	z-index:1;
 }

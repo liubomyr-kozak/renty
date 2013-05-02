@@ -344,3 +344,12 @@ ins{
 .displ_none{
 	dispalay:none;
 }
+ul{
+	padding:0px;
+}
+ul li{
+	list-style:none;
+}
+/*button [type=submit]{*/
+	/*margin:0px!important;*/
+/*}*/
