@@ -12,6 +12,7 @@ $(document).ready(function () {
         $(this).parent().find('.check_box_wrap').toggleClass('displ_block');
     });
 
+                                                  /* ======= price ======= */
     $('.dropdown-menu > li > a').click(function () {
         var currency = $(this).text();
         var nbu = ['7.99', '10.48', 1, '0.28'];
@@ -24,5 +25,35 @@ $(document).ready(function () {
     $('.dropdown-menu a').click(function () {
         $(this).parents('.btn-group').find('.selected-value').html($(this).html());
     });
+                                                 /* ======= price ======= END*/
 
+                                           /* ======= background_header_img ======= */
+    var bgImage = $('.background-image');
+    function resizeImg() {
+        var imgwidth = bgImage.width(),
+            imgheight = bgImage.height(),
+            winwidth =  $(".header_carousel").width(),
+            winheight = $(".header_carousel").height(),
+            widthratio = winwidth / imgwidth,
+            heightratio = winheight / imgheight,
+            widthdiff = heightratio * imgwidth,
+            heightdiff = widthratio * imgheight;
+        if(heightdiff>winheight) {
+            bgImage.css({
+                width: winwidth+'px',
+                height: heightdiff+'px'
+            });
+        } else {
+            bgImage.css({
+                width: widthdiff+'px',
+                height: winheight+'px'
+            });
+        }
+        $(".background-image").show();
+    }
+    resizeImg();
+    $(window).resize(function() {
+        resizeImg();
+    });
+                                           /* ======= background_header_img END======= */
 });
