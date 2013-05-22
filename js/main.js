@@ -56,4 +56,16 @@ $(document).ready(function () {
         resizeImg();
     });
                                            /* ======= background_header_img END======= */
+
+
+    $('.index_search_form > .btn').each(function (i) {
+        $(this).click(function (){
+            if( $('.btn').eq(i) === 1||2||3){
+                $('.btn').eq(i).siblings(i).toggleClass("dn");
+            }
+            $('.btn').eq(0).removeClass("dn");
+            $('.hide_small_search').removeClass("dn");
+        });
+    });
+
 });
