@@ -40,7 +40,7 @@
 	left: -32px;
 	top: 2px;
 }
-
+}
 .th_header_v2_search_submit:hover {
 	background:url('../images/th_header_v2_lupa.gif') 0px -72px #fff no-repeat;
 }
@@ -102,49 +102,23 @@
 }
 
 .box_block{
-	width: 232px;
-	height: 205px;
-	background: #ccc;
-	border-radius: 3px;
-	border: 1px solid #333;
+	width: 233px;
+	height: 180px;
+	background:#ccc;
+	border-radius:3px;
+	border:1px solid #333;
 	float: left;
-	margin: 5px;
-	cursor: pointer;
-	position: relative;
+	margin:5px;
+	cursor:pointer;
 }
-.box_block:hover{
-	border: 1px solid #39cff8;
-	border-top:3px solid #39cff8;
-	border-bottom:3px solid #39cff8;
-	background:#E2C2F1;
-	color:#333;
-}
-.index_price{
-	position:absolute;
-	right:0px;
-	bottom:4px;
-	background:#ffc504;
-	color:#f00;
-	display:block;
-	height:40px;
-	width:70px;
-	line-height:40px;
-	font-weight:bold;
-	text-align:center;
-	font-size:17px;
-	font-family: tahoma;
-}
-
 .box_block .wrap{
-	width:229px; /*-border 2px*/
+	width:231px; /*-border 2px*/
 	margin:0px auto 5px;
 	border-radius:3px;
 	border:1px solid #a9a9a9;
-
 }
 .wrap img{
 	display:block;
 	width:100%;
-	max-height:157px;
 
 }
