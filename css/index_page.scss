@@ -1,3 +1,7 @@
+.test{
+  float: left;
+}
+
 .search_wrap {
   background: rgb(211, 211, 211);
   width: 712px;
@@ -46,6 +50,7 @@ search form
 
 .th_header_v2_search_submit:hover {
   background: url('../images/th_header_v2_lupa.gif') 0px -72px #fff no-repeat;
+
 }
 
 .th_header_v2_search_advanced {
@@ -90,9 +95,9 @@ end search form
 .index_search_form{
   background: url("../img/sprite.png") no-repeat -3px -119px;
   height: 50px;
-  width: 310px;
   position: relative;
   right: 10px;
+  display: inline-block;
   .menu {
     height: 25px;
     width: 25px;
@@ -100,26 +105,85 @@ end search form
       display: block;
       width: 100%;
       height: 100%;
+
     }
+  }
+  .wrapper{
+    background: url("../img/sprite.png") no-repeat 100% -119px;
+    height: 100%;
+    position: relative;
+    left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    .separator{
+      background: url("../img/sprite.png") no-repeat -16px -57px;
+      width: 5px;
+      height: 50px;
+      float: left;
+      margin: 0 5px;
+    }
+
   }
   .btn {
     padding: 2px 10px;
   }
-  .wrapper{
-    background: url("../img/sprite.png") no-repeat -473px -119px ;
-    height: 100%;
+  .btn_home{
+    background: url("../img/sprite.png") no-repeat;
+    background-position: 23px -57px;
+    height: 50px;
+    width: 43px;
+    cursor: pointer;
+    margin-right:5px ;
+    .icon{
+      background: url("../img/sprite.png") no-repeat;
+      background-position: -45px 3px;
+      height: 100%;
+      &:hover{
+        background-position: 0px 3px;
+      }
+    }
+  }
+}
+.btn_ul_wrap{
+  .ul_box{
+    background: url("../img/bg/search_ul.png") repeat-y -33px 11px;
+    list-style: none;
+    padding: 0 0 15px 0;
+    margin: 0;
     position: relative;
-    left: 10px;
+    li{
+      height: 25px;
+      line-height: 25px;
+      padding: 0 5px;
+      &.ul_downer_line{
+        position: absolute;
+        height: 40px;
+        width: 100%;
+        bottom: -40px;
+        padding: 0;
+        i{
+          display: inline-block;
+          width: 50%;
+          height: 40px;
+
+          &:nth-child(1){
+            background: url("../img/sprite.png") repeat-y 0 -193px;
+          }
+          &:nth-child(2){
+            background: url("../img/sprite.png") repeat-y 100% -193px;
+          }
+        }
+      }
+    }
   }
 }
 
-
-.page_btn_action span {
-  padding: 3px 0 2px;
-  display: block;
-  text-align: center;
-  overflow: hidden;
-}
+//.page_btn_action span {
+//  padding: 3px 0 2px;
+//  display: block;
+//  text-align: center;
+//  overflow: hidden;
+//}
 
 .box_block {
   width: 232px;

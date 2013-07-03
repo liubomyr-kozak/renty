@@ -21,34 +21,34 @@
 <body>
  <div class="page">
 
-	 <div class="index_search_form">
-		 <div class="menu fl btn mrt_small dn page_btn_home">
-			  <img src="../img/changes.jpg" alt=""/>
-		 </div>
-	    <div class="btn mrt_small fl page_btn_action"><a>Купить</a></div>
-		 <div class="btn mrt_small fl page_btn_action"><a>Снять</a></div>
-		 <div class="btn btn-success  mrt_small fl page_btn_action"><a>+ Добавить обявление</a></div>
-		 <div class="hide_small_search fl dn page_btn_form">
-			 <div class="fl">
-				 <select class="select" style="width:82px!important;">
-					 <option>Комнату</option>
-					 <option>Квартиру</option>
-					 <option>Офис</option>
-				 </select>
-				 <select class="select" style="width:40px!important;">
-					 <option>1</option>
-					 <option>2</option>
-					 <option>3</option>
-					 <option>4</option>
-					 <option>5+</option>
-				 </select>
-			 </div>
-      <div class="btn-group fl" data-toggle="buttons-radio">
-       <button type="button" class="btn">Долгострочно</button>
-       <button type="button" class="btn">Посуточно</button>
-      </div>
-		 </div>
-	 </div>
+	 <!--<div class="index_search_form">-->
+		 <!--<div class="menu fl btn mrt_small dn page_btn_home">-->
+			  <!--<img src="../img/changes.jpg" alt=""/>-->
+		 <!--</div>-->
+	    <!--<div class="btn mrt_small fl page_btn_action"><a>Купить</a></div>-->
+		 <!--<div class="btn mrt_small fl page_btn_action"><a>Снять</a></div>-->
+		 <!--<div class="btn btn-success  mrt_small fl page_btn_action"><a>+ Добавить обявление</a></div>-->
+		 <!--<div class="hide_small_search fl dn page_btn_form">-->
+			 <!--<div class="fl">-->
+				 <!--<select class="select" style="width:82px!important;">-->
+					 <!--<option>Комнату</option>-->
+					 <!--<option>Квартиру</option>-->
+					 <!--<option>Офис</option>-->
+				 <!--</select>-->
+				 <!--<select class="select" style="width:40px!important;">-->
+					 <!--<option>1</option>-->
+					 <!--<option>2</option>-->
+					 <!--<option>3</option>-->
+					 <!--<option>4</option>-->
+					 <!--<option>5+</option>-->
+				 <!--</select>-->
+			 <!--</div>-->
+      <!--<div class="btn-group fl" data-toggle="buttons-radio">-->
+       <!--<button type="button" class="btn">Долгострочно</button>-->
+       <!--<button type="button" class="btn">Посуточно</button>-->
+      <!--</div>-->
+		 <!--</div>-->
+	 <!--</div>-->
 
    <div class="clear_big"></div>
    <div class="clear_big"></div>
@@ -56,9 +56,51 @@
 
     <div class="index_search_form">
       <div class="wrapper">
-        <div class="menu fl btn mrt_small dn page_btn_home">
-          <img src="../img/changes.jpg" alt=""/>
-        </div>
+	      <div class="btn_home fl">
+		      <div class="icon"></div>
+	      </div>
+	      <div class="btn_placement fl">
+		      <span class="select_block fl">
+			      Выберите ти помещения ...
+		      </span>
+		      <div class="btn_ul_wrap dn">
+			      <ul class="ul_box">
+				      <li>Дом</li>
+				      <li>Квартиры</li>
+				      <li>Комнати</li>
+				      <li class="ul_downer_line"><i></i><i></i></li>
+		        </ul>
+		      </div>
+		      <div class="separator fr"></div>
+	      </div>
+	      <div class="btn_placement fl">
+		      <span class="select_block fl">
+			      количество комнат ...
+		      </span>
+		      <div class="btn_ul_wrap dn">
+			      <ul class="ul_box">
+				      <li>1</li>
+				      <li>2</li>
+				      <li>3</li>
+				      <li>4</li>
+				      <li class="ul_downer_line"><i></i><i></i></li>
+		        </ul>
+		      </div>
+		      <div class="separator fr"></div>
+	      </div>
+	      <div class="btn_price fl">
+		      <div class="fl">
+			      Цена &nbsp;  От  <input type="text" size="5">  До  <input type="text" size="5">
+		      </div>
+		      <div class="separator fr"></div>
+	      </div>
+	      <div class="btn_room_filer fl">
+		      <div class="fl">
+			      Площалью &nbsp;
+			      <input type="text" size="5"> - <input type="text" size="5">  м²
+		      </div>
+		      <div class="separator fr"></div>
+	      </div>
       </div>
     </div>
  </div>
