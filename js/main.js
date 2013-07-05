@@ -1,3 +1,51 @@
+$.fn.dropMenu = function(){
+
+    var selectorNumber = new Array();
+
+    $('.btn_ul_wrap').each(function(){
+        $(this).parent().mousemove(function(){
+            $(this).addClass("hover");
+        }).mouseout(function(){
+                var text = $(this).text();
+                $(this).removeClass("hover");
+        });
+
+        $(this).find('li').click(function(){
+            var number = $(this).text();
+            if($(this).parents().children().hasClass('select_block_check')){
+                $(this).toggleClass('check');
+                selectorNumber.push(number);
+                                                                                                                      //                    $('.select_block_check').text();
+                                                                                                                        //                    if(selectorNumber !== number ){
+                                                                                                                        //                $(this).parents().eq(2).find('.select_block_check').text(newdata);
+
+
+                                                                                                                        //                var newNumber = listNumber[i] + listNumber;
+
+                                                                                                                        //                console.log(listNumber);
+
+                                                                                                                        //                    }else{
+                                                                                                                        //                      selectorNumber.push(number);
+                                                                                                                        //                    }
+                                                                                                                        //                selectorNumber.push();//get selector number
+                selectorNumber.sort();
+                number[selectorNumber];
+
+
+
+                console.log(selectorNumber);
+                console.log(number);
+
+            }else{
+                $(this).addClass('check').siblings().removeClass('check');
+                $(this).parents().eq(2).find('.select_block').text(number);
+            }
+        });
+    });
+
+    return $(this);
+}
+
 $(document).ready(function () {
     $('.btn_group').find('.btn').click(function () {
         $(this)
@@ -71,4 +119,5 @@ $(document).ready(function () {
         $('.page_btn_form').addClass('dn');
     });
 
+    $('.drop_menu').dropMenu();
 });

@@ -144,7 +144,29 @@ end search form
     }
   }
 }
+
+.btn_action,
+.btn_placement,
+.btn_price{
+  position: relative;
+  cursor: pointer;
+}
+.hover{
+  .btn_ul_wrap{
+    display: block;
+  }
+  .check{
+    padding: 0 0 0 10px;
+    background: #ccc;
+  }
+}
 .btn_ul_wrap{
+  position: absolute;
+  outline: 1px solid #ccc;
+  width: 100%;
+  top: 50px;
+  left: -7px;
+  display: none;
   .ul_box{
     background: url("../img/bg/search_ul.png") repeat-y -33px 11px;
     list-style: none;
@@ -168,6 +190,9 @@ end search form
 
           &:nth-child(1){
             background: url("../img/sprite.png") repeat-y 0 -193px;
+            margin: 0 0 0 -1px;   /*for outline*/
+            padding: 0 1px 0 0px; /*for outline*/
+
           }
           &:nth-child(2){
             background: url("../img/sprite.png") repeat-y 100% -193px;
@@ -177,13 +202,6 @@ end search form
     }
   }
 }
-
-//.page_btn_action span {
-//  padding: 3px 0 2px;
-//  display: block;
-//  text-align: center;
-//  overflow: hidden;
-//}
 
 .box_block {
   width: 232px;
