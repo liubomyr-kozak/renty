@@ -1,6 +1,6 @@
 $.fn.dropMenu = function(){
 
-    var selectorNumber = new Array();
+    var selectorArray = new Array();
 
     $('.btn_ul_wrap').each(function(){
         $(this).parent().mousemove(function(){
@@ -11,34 +11,21 @@ $.fn.dropMenu = function(){
         });
 
         $(this).find('li').click(function(){
-            var number = $(this).text();
+            var selector = $(this).text();
             if($(this).parents().children().hasClass('select_block_check')){
                 $(this).toggleClass('check');
-                selectorNumber.push(number);
-                                                                                                                      //                    $('.select_block_check').text();
-                                                                                                                        //                    if(selectorNumber !== number ){
-                                                                                                                        //                $(this).parents().eq(2).find('.select_block_check').text(newdata);
-
-
-                                                                                                                        //                var newNumber = listNumber[i] + listNumber;
-
-                                                                                                                        //                console.log(listNumber);
-
-                                                                                                                        //                    }else{
-                                                                                                                        //                      selectorNumber.push(number);
-                                                                                                                        //                    }
-                                                                                                                        //                selectorNumber.push();//get selector number
-                selectorNumber.sort();
-                number[selectorNumber];
-
-
-
-                console.log(selectorNumber);
-                console.log(number);
+                var indexOf = selectorArray.indexOf(selector);
+                if (indexOf === -1){
+                    selectorArray.push(selector);
+                }else{
+                    selectorArray.splice(indexOf,1);
+                }
+                selectorArray.sort();
+                 $('.select_block_check').text(selectorArray);
 
             }else{
                 $(this).addClass('check').siblings().removeClass('check');
-                $(this).parents().eq(2).find('.select_block').text(number);
+                $(this).parents().eq(2).find('.select_block').text(selector);
             }
         });
     });
