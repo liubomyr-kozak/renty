@@ -1,5 +1,6 @@
 .test{
   float: left;
+  background: #000;
 }
 
 .search_wrap {
@@ -98,6 +99,7 @@ end search form
   position: relative;
   right: 10px;
   display: inline-block;
+  text-align: center;
   .menu {
     height: 25px;
     width: 25px;
@@ -147,10 +149,14 @@ end search form
 
 .btn_action,
 .btn_placement,
-.btn_price{
+.btn_price,
+.btn_amt{
   position: relative;
   cursor: pointer;
-  min-width: 50px;
+  min-width: 60px;
+}
+.btn_amt{
+  min-width: 30px;
 }
 .hover{
   .btn_ul_wrap{
@@ -203,7 +209,11 @@ end search form
     }
   }
 }
-
+.btn_advert{
+  span{
+    cursor: pointer;
+  }
+}
 .box_block {
   width: 232px;
   height: 205px;

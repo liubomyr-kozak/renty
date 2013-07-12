@@ -1,7 +1,6 @@
 $.fn.dropMenu = function(){
 
     var selectorArray = new Array();
-
     $('.btn_ul_wrap').each(function(){
         $(this).parent().mousemove(function(){
             $(this).addClass("hover");
@@ -9,7 +8,6 @@ $.fn.dropMenu = function(){
                 var text = $(this).text();
                 $(this).removeClass("hover");
         });
-
         $(this).find('li').click(function(){
             var selector = $(this).text();
             if($(this).parents().children().hasClass('select_block_check')){
@@ -26,8 +24,29 @@ $.fn.dropMenu = function(){
             }else{
                 $(this).addClass('check').siblings().removeClass('check');
                 $(this).parents().eq(2).find('.select_block').text(selector);
+
+                var placementCheck = $(this).hasClass('check');
+
+                if($(this).text() === 'Комнати'){
+                    $('.btn_amt').fadeIn().removeClass('dn');
+                }else if($(this).text() === 'Квартиру'){
+                    $('.btn_room_square').fadeIn().removeClass('dn');
+                }else{
+                    $(this).hasClass(function(){
+                        if("check"){
+                            $('.btn_amt').removeClass('dn')
+                        }else{
+                            $('.btn_amt').addClass('dn')
+                        }
+                    });
+
+                $('.btn_room_square').addClass('dn');
+                }
             }
+
+
         });
+
     });
 
     return $(this);
@@ -107,4 +126,31 @@ $(document).ready(function () {
     });
 
     $('.drop_menu').dropMenu();
+
+//    $('.btn_lease').click(function(){
+//        var textBtn = $(this).text();
+//        $('.btn_advert').addClass('dn');
+//        $('.btn_amt').addClass('dn');
+//        $('.btn_home').removeClass('dn');
+//        $('.btn_action').removeClass('dn').find('.select_block').text(textBtn);
+//        $('.btn_placement').removeClass('dn');
+//        $('.btn_price').removeClass('dn');
+//        $('.btn_room_filer').removeClass('dn');
+//    });
+
+    $('.btn_buy, .btn_lease').click(function(){
+        var textBtn = $(this).text();
+        $('.btn_advert').addClass('dn');
+        $('.btn_amt').addClass('dn');
+        $('.btn_home').removeClass('dn');
+        $('.btn_action').removeClass('dn').find('.select_block').text(textBtn);
+        $('.btn_placement').removeClass('dn');
+        $('.btn_price').removeClass('dn');
+        $('.btn_room_square').removeClass('dn');
+    });
+
+//
+//    $('.btn_advert')
+//    $('.btn_all_filter')
+
 });

@@ -85,7 +85,8 @@ end search form
   height: 50px;
   position: relative;
   right: 10px;
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
   .index_search_form .menu {
     height: 25px;
     width: 25px; }
@@ -124,10 +125,14 @@ end search form
 
 .btn_action,
 .btn_placement,
-.btn_price {
+.btn_price,
+.btn_amt {
   position: relative;
   cursor: pointer;
-  min-width: 50px; }
+  min-width: 60px; }
+
+.btn_amt {
+  min-width: 30px; }
 
 .hover .btn_ul_wrap {
   display: block; }
@@ -170,6 +175,9 @@ end search form
             /*for outline*/ }
           .btn_ul_wrap .ul_box li.ul_downer_line i:nth-child(2) {
             background: url("../img/sprite.png") repeat-y 100% -193px; }
+
+.btn_advert span {
+  cursor: pointer; }
 
 .box_block {
   width: 232px;
