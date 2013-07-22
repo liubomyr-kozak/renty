@@ -663,7 +663,8 @@
     , Dropdown = function (element) {
         var $el = $(element).on('click.dropdown.data-api', this.toggle)
         $('html').on('click.dropdown.data-api', function () {
-          $el.parent().removeClass('open')
+          $el.parent().removeClass('open');
+          selectedValue()
         })
       }
 
@@ -683,6 +684,7 @@
       isActive = $parent.hasClass('open')
 
       clearMenus()
+
 
       if (!isActive) {
         $parent.toggleClass('open')

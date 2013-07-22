@@ -53,7 +53,21 @@ $.fn.dropMenu = function(){
 }
 
 $(document).ready(function () {
-    $('.btn_group').find('.btn').click(function () {
+    function clean_selectedValue(){
+        if($(".selected-value").text() == "Выберите район ..."){
+            $(".selected-value").removeClass("active_btn");
+        }
+    }
+    $(document).click(function(){
+        clean_selectedValue()
+    });
+    clean_selectedValue()
+    $(".selected-value").click(function(){
+        $(this).addClass("active_btn");
+    });
+    /*end selectedValue*/
+
+    $('.js_btn_group').find('.btn').click(function () {
         $(this)
             .toggleClass('active_btn')
             .not('.check_box').not('.dropdown-toggle')
@@ -63,7 +77,7 @@ $(document).ready(function () {
             .removeClass('active_btn');
     });
     $('.dropdown-toggle').click(function () {
-        $(this).parent().find('.check_box_wrap').toggleClass('displ_block');
+        $(this).parent().find('.check_box_wrap').toggleClass('rl_db');
     });
 
                                                   /* ======= price ======= */

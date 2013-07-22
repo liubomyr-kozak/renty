@@ -64,7 +64,7 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
     padding-right:10px!important;
 }
 .btn{
-	position:relative;
+    position:relative;
     display: inline-block;
     *display: inline;
     padding: 1px 0px;
@@ -132,7 +132,7 @@ select, textarea, input[type="text"]:not(.th_header_v2_search_submit), input[typ
 .btn:active,
 .btn.active_btn {
     background-color: #cccccc \9;
-	font-weight:bold;
+    font-weight:bold;
 }
 
 .btn:first-child {

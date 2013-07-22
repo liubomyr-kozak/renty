@@ -1,7 +1,7 @@
 .personal_menu_line {
   height: 35px;
   width: 100%;
-  background: #dadada;
+  background: url('../img/bg/bg-pattern.png') repeat;
 
   .photo img {
     width: 35px;
@@ -18,11 +18,13 @@
       float: left;
       margin: 0 10px;
       padding: 0px 0px 1px 0px;
-      border-bottom: 1px solid #0379cc;
-      color: #0379cc;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      ////border-bottom: 1px solid #0379cc;
+      //color: #0379cc;
     }
     b {
-      border-left: 1px solid #fff;
+      border-left: 1px solid #979797;
       width: 1px;
       height: 20px;
       float: left;

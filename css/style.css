@@ -325,16 +325,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 .width_100{
     width: 100% !important;
+    overflow: hidden;
 }
 .width_99{
 	width: 99% !important;
+    overflow: hidden;
 }
 .width_50{
-    width: 49.5% !important;
+    width: 49.3% !important;
 	float :left;
 }
 .width_33{
-    width: 33% !important;
+    width: 32% !important;
 	float:left;
 }
 

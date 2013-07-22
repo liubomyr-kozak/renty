@@ -5,11 +5,10 @@
 	<title></title>
 	<link rel="Stylesheet" type="text/css" href="css/search_result.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
-	<link rel="stylesheet" type="text/css" href="css/stuffstrap.css" media="all"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="all"/>
 
 	<script type="text/javascript" src="js/libs/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/ain.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/libs/bootstrap.js"></script>
 
 	<script type="text/javascript">
@@ -34,56 +33,58 @@
 <div class="rl_page">
 	<div class="custom_filter rl_fl" unselectable="on">
 		<div class="object_filter_box">
-				<button class="btn btn-success width_100">Search</button>
+				<span class="btn btn-success width_100">Search</span>
 		</div>
 		<div class="rl_clear_small"></div>
 
 		<div class="custom filters_box">
-							<div class="rl_clear_small2"></div>
-			<div class="btn_group width_100">
-				<div class="width_50">
-					<span class="btn width_100">Снять</span>
+			<div class="rl_clear_small2"></div>
+			<div class="btn_st_simple_wrap js_btn_group">
+				<div class="btn_st_simple num_two">
+					<span class="btn width_100 ">Снять</span>
 				</div>
-				<div class="width_50">
+				<div class="btn_st_simple num_two">
 					<span class="btn width_100">Купить</span>
 				</div>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="btn_group width_100">
-				<div class="width_33">
+			<!--<div class="rl_clear_small"></div>-->
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<div class="btn_st_simple num_three">
 					<span class="btn width_100">Квартиру</span>
 				</div>
-				<div class="width_33">
+				<div class="btn_st_simple num_three">
 					<span class="btn width_100">Комнату</span>
 				</div>
-				<div class="width_33">
+				<div class="btn_st_simple num_three">
 					<span class="btn width_100">Дом</span>
 				</div>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="btn_group width_100">
-				<div class="width_50">
+			<!--<div class="rl_clear_small"></div>-->
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<div class="btn_st_simple num_two">
 					<span class="btn width_100">Долгострочно</span>
 				</div>
-				<div class="width_50">
+				<div class="btn_st_simple num_two">
 					<span class="btn width_100">Посуточно</span>
 				</div>
 			</div>
-			<div class="btn_group width_100">
-				<div class="width_33">
-					<span class="btn width_100">Неважно</span>
-				</div>
-				<div class="width_33">
+            <!--<div class="rl_clear_small"></div>-->
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<div class="btn_st_simple num_two">
 					<span class="btn width_100">Новостройка</span>
 				</div>
-				<div class="width_33">
+				<div class="btn_st_simple num_two">
 					<span class="btn width_100">Вторичка</span>
 				</div>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="btn-group width_100">
-                <button class="btn btn-small selected-value dropdown-toggle width_99" data-toggle="dropdown">Выберите район ...</button>
-				<b class="caret" style="margin:12px 1px 0px 0px;"></b>
+			<!--<div class="rl_clear_small"></div>-->
+
+			<div class="btn_st_simple_wrap btn-group">
+                <span class="btn num_one btn_st_simple selected-value dropdown-toggle" data-toggle="dropdown">Выберите район ...</span>
+				<b class="caret" style="margin:12px 1px 0px 0px; position: absolute"></b>
                 <ul class="dropdown-menu geoselector">
                     <li><a href="#">Голосеевский район</a></li>
                     <li><a href="#">Святошинский район</a></li>
@@ -97,86 +98,96 @@
                     <li><a href="#">Деснянский район</a></li>
                 </ul>
             </div>
-							<div class="rl_clear_small"></div>
-			<div class="btn_group width_100">
-				<a class="btn dropdown-toggle width_99">
+			<!--<div class="rl_clear_small"></div>-->
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<span class="btn dropdown-toggle btn_st_simple num_one">
 					Kомнат
 					<b class="caret"></b>
-				</a>
-				<ul class="check_box_wrap ul_mar">
-					<button class="check_box btn">1</button>
-					<button class="check_box btn">2</button>
-					<button class="check_box btn">3</button>
-					<button class="check_box btn">4</button>
-					<button class="check_box btn">4+</button>
+				</span>
+				<ul class="check_box_wrap ul_list">
+					<button class="check_box btn btn_st_simple">1</button>
+					<button class="check_box btn btn_st_simple">2</button>
+					<button class="check_box btn btn_st_simple">3</button>
+					<button class="check_box btn btn_st_simple">4</button>
+					<button class="check_box btn btn_st_simple">4+</button>
 				</ul>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="controls controls-row">
-				<div class="help-inline rl_fl rl_padl_small">Цена</div>
+							<!--<div class="rl_clear_small"></div>-->
+			<div class=" btn_st_simple_wrap ">
+				<div class="rl_fl rl_padl_small">Цена</div>
 				<div class="rl_fr  rl_mrt_small">
-					<span class="help-inline">От</span>
+					<span >От</span>
 					<input type="text"class="input-mini">
-					<span class="help-inline">До</span>
+					<span >До</span>
 					<input type="text" class="input-mini">
 				</div>
 				<div class="rl_clear"></div>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="btn_group width_100">
-				<a class="btn dropdown-toggle width_99">
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<a class="btn dropdown-toggle num_one btn_st_simple">
 					Площадь
 					<b class="caret" ></b>
 				</a>
-				<ul class="check_box_wrap ul_list ul_mar">
-					<li><span class=" rl_mrl_small">Общая</span><input type="text"class="input-mini db rl_fr"></li>
-					<li><span class="rl_rl_small">Жилая</span> <input type="text"class="input-mini db rl_fr"></li>
-					<li><span class="rl_mrl_small">Кухни</span> <input type="text"class="db rl_fr"></li>
+				<ul class="check_box_wrap ul_list ">
+					<li><span class="rl_mrl_small">Общая</span><input type="text"class="input-mini db rl_fr"></li>
+					<li><span class="rl_mrl_small">Жилая</span> <input type="text"class="input-mini db rl_fr"></li>
+					<li><span class="rl_mrl_small">Кухни</span> <input type="text"class="input-mini db rl_fr"></li>
 				</ul>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="controls controls-row">
-				<div class="help-inline rl_fl rl_padl_small">Етаж</div>
-				<div class="rl_fr  rl_mrt_small">
-					<span class="help-inline">От</span>
-					<input type="text"class="input-mini">
-					<span class="help-inline">До</span>
-					<input type="text" class="input-mini">
-				</div>
-				<ul class="ul_list">
-					<li>Кроме первого</li>
-					<li>Кроме последнего</li>
-				</ul>
-				<div class="rl_clear"></div>
-			</div>
-							<div class="rl_clear_small"></div>
-			<div class="btn_group width_100">
-				<a class="btn dropdown-toggle width_99">
+
+
+            <div class="btn_st_simple_wrap js_btn_group">
+				<span class="btn dropdown-toggle btn_st_simple num_one">
+					Етаж
+					<b class="caret"></b>
+				</span>
+                <ul class="check_box_wrap ul_list">
+                    <li>
+                        <span class="help-inline">От</span>
+                        <input type="text"class="input-mini">
+                        <span class="help-inline">До</span>
+                        <input type="text" class="input-mini">
+                    </li>
+                </ul>
+                <ul class="check_box_wrap ul_list">
+                    <li>Кроме первого</li>
+                    <li>Кроме последнего</li>
+                </ul>
+            </div>
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<a class="btn dropdown-toggle btn_st_simple num_one">
 					Бытовая техника
 					<b class="caret" ></b>
 				</a>
-				<ul class="check_box_wrap ul_list ul_mar">
+				<ul class="check_box_wrap ul_list">
 					<li>Холодильник</li>
 					<li>Телефизор</li>
 					<li>Микроволновка</li>
 					<li>Чайник</li>
 				</ul>
 			</div>
-							<div class="rl_clear_small"></div>
-			<div class="btn_group width_100">
-				<a class="btn dropdown-toggle width_99">
+
+			<div class="btn_st_simple_wrap js_btn_group">
+				<a class="btn dropdown-toggle btn_st_simple num_one">
 					Mебли
 					<b class="caret"></b>
 				</a>
-				<ul class="check_box_wrap ul_list ul_mar">
+				<ul class="check_box_wrap ul_list ">
 					<li>Кровать</li>
 					<li>Стол</li>
 					<li>Стульчики</li>
 					<li>Диван</li>
 				</ul>
 			</div>
-			<div class="rl_clear_small"></div>
+            <div class="btn_st_simple_wrap">
+                <span class=" num_one js_add_filter ">+ Добавить фильтр</span>
+            </div>
 		</div>
+
+        <div class="rl_clear"></div>
 	</div>
 </div>
 	<!-- ======== block search_result ========= -->
