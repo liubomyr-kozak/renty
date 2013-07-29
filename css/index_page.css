@@ -1,17 +1,11 @@
 .test {
-  float: left; }
+  float: left;
+  background: #000; }
 
 .search_wrap {
   background: lightgrey;
   width: 712px;
   padding: 3px 0; }
-
-.page.block_search {
-  padding: 0 0 0 50px;
-  border: 1px solid #b4b4b4;
-  background: #c4c4c4;
-  border-radius: 3px;
-  width: 760px !important; }
 
 /*=======
 search form
@@ -83,10 +77,12 @@ end search form
 .index_search_form {
   background: url("../img/sprite.png") no-repeat -3px -119px;
   height: 50px;
-  position: relative;
-  right: 10px;
+  position: absolute;
+  right: 11%;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+  top: 50%;
+  margin: -25px 0 0 0; }
   .index_search_form .menu {
     height: 25px;
     width: 25px; }

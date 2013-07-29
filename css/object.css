@@ -1,0 +1,207 @@
+.obj_info {
+  width: 800px; }
+  .obj_info h2 {
+    border-bottom: 1px dashed;
+    width: 540px; }
+  .obj_info .title_price {
+    background: url("../img/bg/price_bg.png") right top no-repeat;
+    height: 30px;
+    width: 212px;
+    font-size: 20px;
+    position: absolute;
+    margin: 7px 0 0 0;
+    right: 0px;
+    line-height: 30px; }
+  .obj_info .case {
+    width: 515px;
+    background: #fff;
+    padding: 20px 10px 0; }
+    .obj_info .case .descr {
+      padding: 0px 60px 0px 28px; }
+    .obj_info .case .tools {
+      padding: 7px 0px 30px 28px; }
+      .obj_info .case .tools li {
+        margin-right: 30px; }
+  .obj_info .on-off li {
+    background: url(http://roomer.kiev.ua/images/ico-off.png) no-repeat left 3px;
+    padding-left: 19px;
+    color: #9C9F8F; }
+    .obj_info .on-off li.on {
+      background: url(http://roomer.kiev.ua/images/ico-on.png) no-repeat left 3px;
+      color: #45382E; }
+  .obj_info ul.li-float-left li {
+    float: left;
+    display: inline; }
+  .obj_info .options li {
+    height: 24px;
+    line-height: 24px; }
+  .obj_info .options .col-1 {
+    margin: 0px 0px 0px 28px;
+    width: 300px; }
+
+.obj_page_menu {
+  width: 170px;
+  padding: 8px 0 0 0; }
+  .obj_page_menu li {
+    color: #333333;
+    clear: both;
+    cursor: pointer; }
+    .obj_page_menu li div {
+      padding: 0 40px 0 10px;
+      height: 28px;
+      line-height: 28px;
+      float: left;
+      border-left: 1px solid transparent;
+      font-size: 16px; }
+    .obj_page_menu li:hover div {
+      text-decoration: underline;
+      color: #20acfa; }
+    .obj_page_menu li.selected div {
+      background: url(../img/bg/object-menu-selector.png) no-repeat right top;
+      border-left: 1px dashed #000000;
+      color: #45382e; }
+    .obj_page_menu li.selected:hover div {
+      text-decoration: underline;
+      color: #20acfa; }
+
+.owner_block {
+  width: 240px;
+  position: relative;
+  background: #fff;
+  border-top: 1px dashed; }
+  .owner_block .lol {
+    background: url("../img/bg/lol.png");
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: -36px;
+    left: -23px; }
+  .owner_block .photo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 20px 0 0 10px; }
+  .owner_block .info-user {
+    margin: 0;
+    padding: 10px 0 0 70px; }
+    .owner_block .info-user a {
+      color: #b54c00;
+      text-decoration: none; }
+    .owner_block .info-user .user-name {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: capitalize; }
+    .owner_block .info-user .item {
+      margin: 5px 0;
+      padding: 0; }
+  .owner_block .item-param {
+    padding: 0 10px;
+    margin: 5px 0;
+    list-style: none; }
+    .owner_block .item-param .phone {
+      font-size: 18px;
+      font-weight: normal; }
+    .owner_block .item-param a {
+      color: #b54c00;
+      text-decoration: none; }
+  .owner_block .bottom-dashed {
+    text-align: left;
+    border-bottom: 1px dashed;
+    padding: 0 10px; }
+  .owner_block [class^="icon-"], .owner_block [class*=" icon-"] {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: -4px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    vertical-align: text-top;
+    background-image: url("../img/new-sprite.png");
+    background-repeat: no-repeat; }
+  .owner_block .icon-mobile-warning {
+    background-position: -65px -200px; }
+  .owner_block .icon-email {
+    background-position: 2px -119px; }
+  .owner_block .icon-views {
+    background-position: -25px -285px; }
+  .owner_block .icon-id-item {
+    background-position: -24px -307px; }
+  .owner_block .icon-complain {
+    background-position: -24px -352px; }
+  .owner_block .icon-print-grey {
+    background-position: -24px -328px; }
+
+.big_item_image_wrap {
+  width: 510px;
+  margin: 0 0 10px 29px; }
+
+.img {
+  font-size: 1px;
+  display: block;
+  position: relative;
+  top: -6px; }
+
+#ad_light_box_img {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  height: 335px; }
+
+#fadeContainer {
+  position: relative;
+  height: 355px;
+  width: 450px;
+  margin-left: 0px; }
+
+#fadeContainer img {
+  position: absolute;
+  left: 50%;
+  margin-left: -50%; }
+
+.img img {
+  border: 3px solid #e0e4cc;
+  padding: 3px; }
+
+.zoom {
+  cursor: pointer;
+  display: none;
+  background: url(/images/img-zoom.png) no-repeat left top;
+  width: 61px;
+  height: 62px;
+  position: absolute;
+  top: 160px;
+  left: 222px; }
+
+.photo-line {
+  margin: 0 0 0 7px;
+  padding-top: 10px;
+  width: 525px; }
+  .photo-line li.arr-left {
+    background: url(http://roomer.kiev.ua/images/photo-line-arr-left.png) no-repeat left 32px;
+    width: 24px;
+    height: 80px;
+    cursor: pointer; }
+  .photo-line li.arr-right {
+    background: url(http://roomer.kiev.ua/images/photo-line-arr-right.png) no-repeat 3px 32px;
+    width: 24px;
+    height: 80px;
+    cursor: pointer; }
+  .photo-line li.line {
+    width: 463px;
+    overflow: hidden; }
+  .photo-line .estate_item_scroll_wrapper {
+    position: relative;
+    width: 452px; }
+  .photo-line .lenta {
+    width: 20000px;
+    width: 500px !important;
+    overflow: hidden;
+    height: 90px; }
+    .photo-line .lenta ul {
+      width: 500px; }

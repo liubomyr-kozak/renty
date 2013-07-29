@@ -1,0 +1,266 @@
+.obj_info{
+  width: 800px;
+  h2{
+    border-bottom: 1px dashed;
+    width: 540px;
+  }
+  .title_price{
+    background: url("../img/bg/price_bg.png") right top no-repeat;
+    height: 30px;
+    width: 212px;
+    font-size: 20px;
+    position: absolute;
+    margin: 7px 0 0 0;
+    right: 0px;
+    line-height: 30px;
+  }
+  .case{
+    width: 515px;
+    background: #fff;
+    padding: 20px 10px 0;
+    .descr {
+      padding: 0px 60px 0px 28px;
+    }
+    .tools {
+      padding: 7px 0px 30px 28px;
+      li {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .on-off li {
+    background: url(http://roomer.kiev.ua/images/ico-off.png) no-repeat left 3px;
+    padding-left: 19px;
+    color: #9C9F8F;
+    &.on {
+      background: url(http://roomer.kiev.ua/images/ico-on.png) no-repeat left 3px;
+      color: #45382E;
+    }
+  }
+
+  ul.li-float-left li {
+    float: left;
+    display: inline;
+  }
+  .options{
+    li{
+      height: 24px;
+      line-height: 24px;
+    }
+    .col-1 {
+      margin: 0px 0px 0px 28px;
+      width: 300px;
+    }
+  }
+}
+.obj_page_menu{
+  width: 170px;
+  padding: 8px 0 0 0;
+
+  li{
+    color: #333333;
+    clear: both;
+    cursor: pointer;
+
+    div{
+      padding: 0 40px 0 10px;
+      height: 28px;
+      line-height: 28px;
+      float: left;
+      border-left: 1px solid transparent;
+      font-size: 16px;
+    }
+
+    &:hover{
+      div{
+        text-decoration:underline;
+        color: #20acfa;
+      }
+    }
+
+    &.selected{
+      div{
+        background: url(../img/bg/object-menu-selector.png) no-repeat right top;
+        border-left: 1px dashed #000000;
+        color: #45382e;
+      }
+      &:hover{
+        div{
+          text-decoration:underline;
+          color: #20acfa;
+        }
+      }
+    }
+  }
+}
+.owner_block{
+  width: 240px;
+  position: relative;
+  background: #fff;
+  border-top: 1px dashed;
+  .lol{
+    background: url("../img/bg/lol.png");
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: -36px;
+    left: -23px;
+  }
+  .photo{
+    display: block;
+    width: 50px;
+    height:50px;
+    margin: 20px 0 0 10px;
+  }
+  .info-user {
+    margin: 0;
+    padding: 10px 0 0 70px;
+    a {
+      color: #b54c00;
+      text-decoration: none;
+    }
+    .user-name {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: capitalize;
+
+    }
+    .item {
+      margin: 5px 0;
+      padding: 0;
+    }
+
+  }
+  .item-param {
+    padding: 0 10px;
+    margin: 5px 0;
+    list-style: none;
+    .phone {
+      font-size: 18px;
+      font-weight: normal;
+    }
+    a {
+      color: #b54c00;
+      text-decoration: none;
+    }
+
+  }
+  .bottom-dashed{
+    text-align: left;
+    border-bottom: 1px dashed;
+    padding: 0 10px;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: -4px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    vertical-align: text-top;
+    background-image: url("../img/new-sprite.png");
+    background-repeat: no-repeat;
+  }
+  .icon-mobile-warning {
+    background-position: -65px -200px;
+  }
+  .icon-email {
+    background-position: 2px -119px;
+  }
+  .icon-views {
+    background-position: -25px -285px;
+  }
+  .icon-id-item {
+    background-position: -24px -307px;
+  }
+  .icon-complain {
+    background-position: -24px -352px;
+  }
+  .icon-print-grey {
+    background-position: -24px -328px;
+  }
+}
+
+.big_item_image_wrap {
+  width: 510px;
+  margin: 0 0 10px 29px;
+}
+.img {
+  font-size: 1px;
+  display: block;
+  position: relative;
+  top: -6px;
+}
+#ad_light_box_img {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  height: 335px;
+}
+#fadeContainer {
+  position: relative;
+  height: 355px;
+  width: 450px;
+  margin-left: 0px;
+}
+#fadeContainer img {
+  position: absolute;
+  left: 50%;
+  margin-left: -50%;
+}
+
+.img img {
+  border: 3px solid #e0e4cc;
+  padding: 3px;
+}
+.zoom {
+  cursor: pointer;
+  display: none;
+  background: url(/images/img-zoom.png) no-repeat left top;
+  width: 61px;
+  height: 62px;
+  position: absolute;
+  top: 160px;
+  left: 222px;
+}
+.photo-line {
+  margin: 0 0 0 7px;
+  padding-top: 10px;
+  width: 525px;
+  li.arr-left {
+    background: url(http://roomer.kiev.ua/images/photo-line-arr-left.png) no-repeat left 32px;
+    width: 24px;
+    height: 80px;
+    cursor: pointer;
+  }
+  li.arr-right {
+    background: url(http://roomer.kiev.ua/images/photo-line-arr-right.png) no-repeat 3px 32px;
+    width: 24px;
+    height: 80px;
+    cursor: pointer;
+  }
+  li.line {
+    width: 463px;
+    overflow: hidden;
+  }
+  .estate_item_scroll_wrapper {
+    position: relative;
+    width: 452px;
+  }
+  .lenta {
+    width: 20000px;
+    width: 500px!important;
+    overflow: hidden;
+    height: 90px;
+    ul {
+      width: 500px;
+    }
+  }
+}

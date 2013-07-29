@@ -28,19 +28,19 @@ $.fn.dropMenu = function(){
                 var placementCheck = $(this).hasClass('check');
 
                 if($(this).text() === 'Комнати'){
-                    $('.btn_amt').fadeIn().removeClass('dn');
+                    $('.btn_amt').fadeIn().removeClass('rl_dn');
                 }else if($(this).text() === 'Квартиру'){
-                    $('.btn_room_square').fadeIn().removeClass('dn');
+                    $('.btn_room_square').fadeIn().removeClass('rl_dn');
                 }else{
                     $(this).hasClass(function(){
                         if("check"){
-                            $('.btn_amt').removeClass('dn')
+                            $('.btn_amt').removeClass('rl_dn')
                         }else{
-                            $('.btn_amt').addClass('dn')
+                            $('.btn_amt').addClass('rl_dn')
                         }
                     });
 
-                $('.btn_room_square').addClass('dn');
+                $('.btn_room_square').addClass('rl_dn');
                 }
             }
 
@@ -128,15 +128,15 @@ $(document).ready(function () {
 
     $('.page_btn_action').each(function (i) {
         $(this).click(function(){
-            $(this).siblings(i).addClass('dn');
-            $('.page_btn_home').removeClass('dn');
-            $('.page_btn_form').removeClass('dn');
+            $(this).siblings(i).addClass('rl_dn');
+            $('.page_btn_home').removeClass('rl_dn');
+            $('.page_btn_form').removeClass('rl_dn');
         });
     });
     $('.page_btn_home').click(function(){
-        $(this).addClass('dn');
-        $('.page_btn_action').removeClass('dn');
-        $('.page_btn_form').addClass('dn');
+        $(this).addClass('rl_dn');
+        $('.page_btn_action').removeClass('rl_dn');
+        $('.page_btn_form').addClass('rl_dn');
     });
 
     $('.drop_menu').dropMenu();
@@ -154,13 +154,14 @@ $(document).ready(function () {
 
     $('.btn_buy, .btn_lease').click(function(){
         var textBtn = $(this).text();
-        $('.btn_advert').addClass('dn');
-        $('.btn_amt').addClass('dn');
-        $('.btn_home').removeClass('dn');
-        $('.btn_action').removeClass('dn').find('.select_block').text(textBtn);
-        $('.btn_placement').removeClass('dn');
-        $('.btn_price').removeClass('dn');
-        $('.btn_room_square').removeClass('dn');
+        $('.btn_advert').addClass('rl_dn');
+        $('.btn_amt').addClass('rl_dn');
+        $('.btn_home').removeClass('rl_dn');
+        $('.btn_action').removeClass('rl_dn').find('.select_block').text(textBtn);
+        $('.btn_placement').removeClass('rl_dn');
+        $('.btn_price').removeClass('rl_dn');
+        $('.btn_room_square').removeClass('rl_dn');
+        $('.btn_search').removeClass('rl_dn');
     });
 
 //
